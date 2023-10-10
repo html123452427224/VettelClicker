@@ -18,6 +18,7 @@ buttonDoubleClick.onclick = () => {
         numberOfClicks = numberOfClicks - DoubleYourClicksCost
         clickIncrease ++
         counter.innerHTML = "Number of Vettels" + numberOfClicks
+        lolooloolololo
     }
 }
 
