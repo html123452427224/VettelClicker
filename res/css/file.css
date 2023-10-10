@@ -1,0 +1,89 @@
+.vettels-head {
+    width: 100%;
+    max-width: 150px;
+}
+
+.pointer {
+    width: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin-left: 10px;
+
+}
+
+#counter {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px ;
+}
+
+.upgrade1 {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid darkblue;
+    width: 25%;
+    background-color: blue;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buttonDoubleClick {
+    justify-content: end;
+    width: 100%;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+   
+}
+
+
+.upgrade2 {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid darkred;
+    background-color: red;
+    width: 25%;
+}
+
+.repeat {
+    width: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin: 5px;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body {
+    background-image: url(./I89VGW.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#autoClicker {
+   
+    justify-content: end;
+    width: 100%;
+    display: inline-block;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
